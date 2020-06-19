@@ -24,10 +24,10 @@ class Class1 extends React.Component {
     change = (e) => {
         this.setState({ text: e.target.value })
         // console.log(e.target.value);
-        console.log(this.state.text);
+        //console.log(this.state.text);
     }
     del = (index) => {
-        console.log(index)
+       // console.log(index)
         let arr = [...this.state.data];
         // arr = arr.filter((items,n) => n!== index)
         this.setState({data:arr})
